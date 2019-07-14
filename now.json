@@ -4,6 +4,9 @@
     "builds":[
         { "src": "*.html", "use": "@now/static" },
         { "src": "*.css", "use": "@now/static" },
-        { "src": "*.js", "use": "@now/node" }
+        { "src": "*.js", "use": "@now/node" },
+        { "src": "*.min.js", "use": "@now/node" },
+        { "src": "*.jpg", "use": "@now/static" },
+        { "src": "*.png", "use": "@now/staic" }
     ]
 }
