@@ -1,12 +1,4 @@
 {
     "version":2,
-    "name":"html-minifier",
-    "builds":[
-        { "src": "*.html", "use": "@now/static" },
-        { "src": "*.css", "use": "@now/static" },
-        { "src": "*.js", "use": "@now/node" },
-        { "src": "*.min.js", "use": "@now/node" },
-        { "src": "*.jpg", "use": "@now/static" },
-        { "src": "*.png", "use": "@now/staic" }
-    ]
+    "name":"html-minifier"
 }
